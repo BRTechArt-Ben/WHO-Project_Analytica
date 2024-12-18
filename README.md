@@ -1,23 +1,20 @@
-# Life Expectancy Prediction Model
+# WHO-Project:
 
-Analytica's Life Expectancy Prediction Model
+This was project one of my end-of-module assignment for Predictive Modelling. Our team Analytica was asked to predict life expectancies across the globe using data provided by the World Health Organization (WHO). The submission is multiple Jupyter Notebook (.ipynb) files containing the stages of project development; including EDA, Feature Engineering, Modelling and Testing, and an individual file containing a single function to run our models.
 
-## Features
-  
-- **Feature Engineering**:
-  - Scaling of input data using MinMaxScaler, RobustScaler, and StandardScaler.
-  - Logarithmic transformations for features like GDP and HIV incidence.
+Another key consideration with this project was ethical considerations. As data practitioners, we must have carefully considered which features to use in each model, balancing the need for accurate predictions with the importance of data privacy.
 
-- **Prediction Models**:
-  - Two models are available:
-    1. **Precise Model**: Uses detailed features for high accuracy.
-    2. **Minimal Model**: Requires fewer features for quick estimations.
-  - Predicts life expectancy using a linear equation:  
-   $$ y = b_0 + x_1 b_1 + \dots + x_n b_n $$
+These notebooks are annotated and code-commented for easy access and interpretation.
 
-- **Interactive Interface**:
-  - Text based input interface.
-  - Validation for correct numbers.
+## Key Outcomes:
 
+- Build two continuous predictive models (linear regression)
+   - One best performing, one minimalistic
+- Deploy both into an interactive function
+- Ethical considerations and data practices
 
+## Team Analytica Members:
 
+- Myself
+- [Isabelle.R](https://github.com/IsabelleRaj)
+- [Maria.R](https://github.com/Ale42RA)
